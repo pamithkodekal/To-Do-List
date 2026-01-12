@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ninja Hacker ToDo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="header">
+    <div class="ninja-wrapper">
+        <svg viewBox="0 0 400 400" class="ninja-svg" xmlns="http://www.w3.org/2000/svg">
+            <path d="M180 110C160 100 120 120 100 105C80 90 110 80 140 90C160 95 180 105 180 110Z" fill="#00ff88"/>
+            <path d="M180 115C150 115 110 140 90 135C70 130 100 115 130 115C160 115 180 115 180 115Z" fill="#00ff88"/>
+            <path d="M165 130L235 130L245 220L215 220V320H185V220L155 220L165 130Z" fill="#0a0a0a"/>
+            <rect x="155" y="135" width="30" height="25" rx="5" fill="#000"/>
+            <rect x="215" y="135" width="30" height="25" rx="5" fill="#000"/>
+            <path d="M180 135C180 110 200 105 200 105C200 105 220 110 220 135V155H180V135Z" fill="#111"/>
+            <path d="M180 145L200 155L220 145V165H180V145Z" fill="#00ff88"/>
+            <circle cx="194" cy="135" r="2" fill="#00ff88"/>
+            <circle cx="206" cy="135" r="2" fill="#00ff88"/>
+        </svg>
+    </div>
+
+    <h1 class="glitch" data-text="HELLO COMMANDO">HELLO COMMANDO</h1>
+    <h3 class="subtitle">EXECUTE YOUR MISSIONS</h3>
+</header>
+
+<main>
+    <div class="input-box">
+        <input id="Todo" type="text" placeholder="Enter mission...">
+        <button onclick="Todos()">ADD</button>
+    </div>
+
+    <div id="taskList" class="task-center"></div>
+</main>
+
+<!-- CUSTOM ALERT -->
+<div id="alertBox" class="alert-overlay">
+    <div class="alert-box">
+        <h2>⚠ SYSTEM MESSAGE</h2>
+        <p id="alertMessage"></p>
+        <button onclick="closeAlert()">OK</button>
+    </div>
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>

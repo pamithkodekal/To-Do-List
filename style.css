@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "JetBrains Mono", monospace;
+}
+
+body {
+    background: linear-gradient(180deg, #000, #001a0f);
+    color: #00ff88;
+    min-height: 100vh;
+}
+
+/* HEADER */
+.header {
+    text-align: center;
+    padding: 40px 20px 20px;
+    border-bottom: 1px solid #00ff8844;
+}
+
+.ninja-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.ninja-svg {
+    width: 200px;
+    filter: drop-shadow(0 0 20px #00ff88);
+    animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+    100% { transform: translateY(0); }
+}
+
+/* GLITCH TEXT */
+.glitch {
+    font-size: 2.8rem;
+    position: relative;
+    letter-spacing: 4px;
+}
+
+.glitch::before,
+.glitch::after {
+    content: attr(data-text);
+    position: absolute;
+    left: 0;
+    width: 100%;
+}
+
+.glitch::before {
+    color: #00ffaa;
+    top: -2px;
+    opacity: 0.7;
+}
+
+.glitch::after {
+    color: #007744;
+    top: 2px;
+    opacity: 0.7;
+}
+
+.subtitle {
+    font-size: 1rem;
+    opacity: 0.7;
+}
+
+/* INPUT */
+.input-box {
+    margin: 40px auto;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+input {
+    width: 260px;
+    padding: 12px;
+    background: #000;
+    border: 1px solid #00ff88;
+    color: #00ff88;
+}
+
+button {
+    padding: 12px 20px;
+    background: #00ff88;
+    color: #000;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    box-shadow: 0 0 15px #00ff88;
+}
+
+/* TASKS */
+.task-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+
+.Task {
+    width: 360px;
+    padding: 12px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    background: #001a0f;
+    border-left: 4px solid #00ff88;
+}
+
+.Task span {
+    flex: 1;
+}
+
+.Task input[type="checkbox"]:checked + span {
+    text-decoration: line-through;
+    color: #007744;
+}
+
+/* EDIT BUTTON */
+.update-btn {
+    background: transparent;
+    border: 1px solid #00ff88;
+    color: #00ff88;
+    padding: 4px 8px;
+    font-size: 0.75rem;
+}
+
+.update-btn:hover {
+    background: #00ff88;
+    color: #000;
+}
+
+/* ALERT */
+.alert-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.85);
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+}
+
+.alert-box {
+    width: 320px;
+    padding: 25px;
+    background: #001a0f;
+    border: 2px solid #00ff88;
+    text-align: center;
+    box-shadow: 0 0 25px #00ff88;
+}
+
+.alert-box h2 {
+    margin-bottom: 10px;
+}
+
+.alert-box p {
+    margin-bottom: 20px;
+}
