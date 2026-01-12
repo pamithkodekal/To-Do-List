@@ -1,86 +1,83 @@
-# 🥷 Ninja Hacker To-Do Application
+# 🥷 Ninja Hacker To-Do (UI/UX Practice Repository)
 
-A modern frontend project showcasing **human-written application logic** combined with **AI-assisted UI/UX design**, built to reflect **real-world human–AI collaboration** in software development.
+This repository is a **practice project created to upskill in UI/UX design**, visual theming, and modern **human–AI collaborative workflows**, while reinforcing core frontend fundamentals.
 
----
-
-## 👋 Summary for Recruiters
-
-This project demonstrates my ability to:
-
-- Design and implement **core frontend logic independently**
-- Use **AI tools responsibly** for UI/UX inspiration (SVG, color systems, visual themes)
-- Translate design concepts into **maintainable, production-ready code**
-- Own and explain all functional behavior of the application
-
-> **Application logic is human-engineered.  
-> UI/UX visuals are AI-assisted and human-curated.**
+The primary goal of this project is **design exploration and iteration**, not building a production-ready product.
 
 ---
 
-## 🧠 Responsibility Breakdown (Clear & Ethical)
+## 🎯 Purpose of This Repository
 
-### 🔹 Human-Written Engineering (Primary Contribution)
+This project was created to:
 
-All functional and architectural components were implemented manually:
+- Practice **UI/UX design skills** using HTML and CSS
+- Experiment with **visual themes** (anime / hacker / cyber aesthetics)
+- Learn how to **use AI tools responsibly** for design inspiration
+- Improve the ability to translate design ideas into working interfaces
+- Maintain ownership of application logic while iterating on visuals
 
-- Task management logic
-  - Add tasks
-  - Edit/update tasks
-  - Mark tasks as completed (strike-through)
-- Custom alert system logic
-- DOM manipulation and event handling
-- Application structure and data flow
-- Debugging and final integration
-
-**Role:** Frontend Developer / Software Engineer
+> This is an **upskilling and learning repository**, focused on improving frontend design sense.
 
 ---
 
-### 🎨 AI-Assisted UI/UX Design (Design Support)
+## 🧠 Skill Focus
 
-AI tools were used strictly as **design assistants**, under full human direction, for:
+### 🔹 Primary Focus: UI / UX Design Practice
+- Color theory and contrast (neon green on dark themes)
+- Visual hierarchy and layout alignment
+- Theming consistency
+- Iconography and SVG usage
+- Interaction feedback (hover, strike-through, alerts)
 
-- Visual theme ideation (anime / hacker / ninja aesthetic)
-- Color palette selection (neon green on dark backgrounds)
-- SVG illustration generation
-- Layout and visual hierarchy inspiration
-
-All UI decisions were **reviewed, refined, and implemented manually**.
-
-**Role of AI:** Creative accelerator, not a code author.
+### 🔹 Supporting Focus: Frontend Fundamentals
+- Event handling
+- DOM manipulation
+- Simple state handling
+- Clean code structure
 
 ---
 
-## 🤝 Human–AI Collaboration Model
+## 🤝 Use of AI (Transparent)
 
-This project reflects a modern development workflow where:
+AI tools were used **only as a design assistant** for:
 
-- Humans own **logic, architecture, and correctness**
-- AI supports **creative exploration and rapid prototyping**
-- Final code quality and behavior remain **human responsibility**
+- UI/UX inspiration
+- Color palette exploration
+- SVG illustration concepts
+- Visual style ideation
 
-This approach aligns with current practices in startups and product teams.
+All **application logic, structure, and final decisions** were implemented and reviewed manually.
+
+> Logic is human-written.  
+> Design inspiration is AI-assisted.
 
 ---
 
 ## 🛠 Tech Stack
 
-- **HTML5**
-- **CSS3**
-- **JavaScript**
-- **AI design tools** (for UI/UX ideation only)
+- HTML5  
+- CSS3  
+- JavaScript  
+- AI design tools (for UI/UX practice only)
 
 ---
 
-## ✨ Features
+## ✨ Features (Practice Scope)
 
-- Add new tasks
-- Edit/update existing tasks
+- Add tasks
+- Edit tasks
 - Mark tasks as completed
 - Custom styled alert modal
-- Centered task layout
-- Anime / hacker-inspired neon UI
+- Centered layout for design consistency
+
+---
+
+## 📌 Notes for Reviewers / Recruiters
+
+- This repository represents a **learning and practice exercise**
+- Emphasis is placed on **design improvement**, not feature completeness
+- Code is intentionally simple to keep focus on **visual and UX iteration**
+- Demonstrates comfort with **modern AI-assisted workflows**
 
 ## Author
 Pamith Kodekal
